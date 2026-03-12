@@ -1,42 +1,69 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Register</title>
+<title>Event Registration</title>
 <link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
 </head>
 
 <body>
 
+<nav>
+<a href="index.html">Home</a>
+<a href="events.html">Events</a>
+<a href="register.html">Register</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
 <div class="form-container">
 
-<h2>Event Registration</h2>
+<h2>College Tech Fest Registration</h2>
 
-<form action="success.html" onsubmit="return validateForm()">
+<form>
 
-<input type="text" id="name" placeholder="Enter your name">
+<input type="text" placeholder="Full Name" required>
 
-<input type="email" id="email" placeholder="Enter your email">
+<input type="email" placeholder="Email Address" required>
 
-<select>
-<option>Select Department</option>
-<option>IT</option>
-<option>CSE</option>
-<option>ECE</option>
+<input type="tel" placeholder="Phone Number" required>
+
+<select required>
+<option value="">Select Department</option>
+<option>Information Technology</option>
+<option>Computer Science Engineering</option>
+<option>Electronics and Communication Engineering</option>
+<option>Electrical and Electronics Engineering</option>
+<option>Mechanical Engineering</option>
+<option>Civil Engineering</option>
+<option>Artificial Intelligence & Data Science</option>
+<option>Cyber Security</option>
 </select>
 
-<select>
-<option>Select Event</option>
+<select required>
+<option value="">Select Event</option>
 <option>Coding Contest</option>
 <option>Paper Presentation</option>
 <option>Debugging Challenge</option>
+<option>Hackathon</option>
+<option>Web Design Competition</option>
+<option>Mobile App Development</option>
+<option>AI Innovation Challenge</option>
+<option>Technical Quiz</option>
+<option>Project Expo</option>
+<option>Poster Presentation</option>
 </select>
 
-<button type="submit">Submit</button>
+<button type="submit">Register Now</button>
 
 </form>
 
 </div>
 
+<footer>
+<p>© 2026 College Tech Fest | IT Department</p>
+</footer>
+
 </body>
+
 </html>
